@@ -129,6 +129,8 @@ a {
   color: var(--link-color);
   text-decoration: none;
   text-shadow: 0px 0px var(--shadow-color);
+	  -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 p {
@@ -139,6 +141,8 @@ nav {
   width: 100%;
   color: var(--link-color);
   text-shadow: 0px 0px var(--shadow-color);
+	  -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 
@@ -168,21 +172,29 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   color: var(--link-color);
+	  -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .ul2 {
   display: block;
   justify-content: space-around;
   align-items: center;
+  -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 nav ul li {
   color: var(--link-color);
   cursor: pointer;
+	  -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .active {
   color: var(--active-link-color);
+	  -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .container {
